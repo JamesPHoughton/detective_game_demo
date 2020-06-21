@@ -1,0 +1,119 @@
+factorTypes:
+- _id: L2SzdtfRWDDzgd8dC
+  description: The number of players in a given game.
+  min: 1
+  name: playerCount
+  required: 'true'
+  type: Integer
+- _id: d5G8iCGfgv9uWZY9D
+  description: The length of the game in minutes.
+  min: 0
+  name: duration
+  required: 'true'
+  type: Integer
+- _id: RW4oM7wqauSvRsaRN
+  description: Which game setup to use for the game.
+  name: gameSetupId
+  required: 'false'
+  type: String
+- _id: SBhvwmYvFFGzjbXDw
+  description: which json file to load the experiment data from
+  name: experimentDataFile
+  required: 'false'
+  type: String
+- _id: qzX9C8pxQ8SGEychK
+  description: how many bots to launch
+  max: 20
+  min: 0
+  name: botsCount
+  required: 'false'
+  type: Integer
+factors:
+- _id: ScX6NbdRpXcdnxtsu
+  factorTypeId: d5G8iCGfgv9uWZY9D
+  name: playOneMin
+  value: 1
+- _id: A6B6feQdm5d2aPFeA
+  factorTypeId: d5G8iCGfgv9uWZY9D
+  name: play8Min
+  value: 8
+- _id: KQXacNbeKX5C7Cuki
+  factorTypeId: qzX9C8pxQ8SGEychK
+  name: 18Bots
+  value: 18
+- _id: s3QBWzbnYBRCbtk6q
+  factorTypeId: qzX9C8pxQ8SGEychK
+  name: 19Bots
+  value: 19
+- _id: hyKk3GXu67tQ76yXh
+  factorTypeId: qzX9C8pxQ8SGEychK
+  name: 0Bots
+  value: 0
+- _id: AaD4oJZ9v7fQTwah5
+  factorTypeId: L2SzdtfRWDDzgd8dC
+  name: run_20_player
+  value: 20
+- _id: dJkxssh45T77wtPYo
+  factorTypeId: SBhvwmYvFFGzjbXDw
+  name: demo_game_20200621_171153
+  value: demo_game_20200621_171153.json
+- _id: y9pFhnzGMwCbbhadZ
+  factorTypeId: RW4oM7wqauSvRsaRN
+  name: demo_game_20200621_171153_0
+  value: demo_game_20200621_171153_0
+- _id: 6bo39eKiLp5SEawKz
+  factorTypeId: RW4oM7wqauSvRsaRN
+  name: demo_game_20200621_171153_1
+  value: demo_game_20200621_171153_1
+- _id: JnCADwhCcB7Zn8xa7
+  factorTypeId: RW4oM7wqauSvRsaRN
+  name: demo_game_20200621_171153_2
+  value: demo_game_20200621_171153_2
+lobbyConfigs:
+- gameLobbyIds: []
+  timeoutInSeconds: 1500000
+  timeoutStrategy: fail
+  timeoutType: lobby
+treatments:
+- factorIds:
+  - y9pFhnzGMwCbbhadZ
+  - A6B6feQdm5d2aPFeA
+  - AaD4oJZ9v7fQTwah5
+  - dJkxssh45T77wtPYo
+  - hyKk3GXu67tQ76yXh
+  name: demo_game_20200621_171153_0
+- factorIds:
+  - y9pFhnzGMwCbbhadZ
+  - A6B6feQdm5d2aPFeA
+  - AaD4oJZ9v7fQTwah5
+  - dJkxssh45T77wtPYo
+  - KQXacNbeKX5C7Cuki
+  name: demo_game_20200621_171153_0_test2player
+- factorIds:
+  - 6bo39eKiLp5SEawKz
+  - A6B6feQdm5d2aPFeA
+  - AaD4oJZ9v7fQTwah5
+  - dJkxssh45T77wtPYo
+  - hyKk3GXu67tQ76yXh
+  name: demo_game_20200621_171153_1
+- factorIds:
+  - 6bo39eKiLp5SEawKz
+  - A6B6feQdm5d2aPFeA
+  - AaD4oJZ9v7fQTwah5
+  - dJkxssh45T77wtPYo
+  - KQXacNbeKX5C7Cuki
+  name: demo_game_20200621_171153_1_test2player
+- factorIds:
+  - JnCADwhCcB7Zn8xa7
+  - A6B6feQdm5d2aPFeA
+  - AaD4oJZ9v7fQTwah5
+  - dJkxssh45T77wtPYo
+  - hyKk3GXu67tQ76yXh
+  name: demo_game_20200621_171153_2
+- factorIds:
+  - JnCADwhCcB7Zn8xa7
+  - A6B6feQdm5d2aPFeA
+  - AaD4oJZ9v7fQTwah5
+  - dJkxssh45T77wtPYo
+  - KQXacNbeKX5C7Cuki
+  name: demo_game_20200621_171153_2_test2player
