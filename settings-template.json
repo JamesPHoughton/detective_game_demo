@@ -1,0 +1,16 @@
+{
+  "galaxy.meteor.com": {
+     "env": {
+       "MONGO_URL": "<insert connection string here>/test",
+       "MONGO_OPLOG_URL": "<insert oplogger connection string here>/local"
+     }
+   },
+   "public": {
+     "playerIdParam": "workerId",
+     "playerIdParamExclusive": false,
+     "debug_new_player": false,
+     "debug_resetSession": false,
+     "debug_resetDatabase": false,
+     "debug_gameDebugMode": false
+   }
+}
