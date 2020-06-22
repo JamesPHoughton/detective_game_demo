@@ -26,9 +26,7 @@ const DisplayText = styled.div`
 `
 
 
-
 export default class InstructionStepOne extends React.Component {
-
 
   renderStep0(progress) {
     return (
@@ -95,9 +93,6 @@ export default class InstructionStepOne extends React.Component {
     if (progress == 0){
       player.set("alterIDs", [])
     }
-
-
-
 
     return (
         <Container>

@@ -24,14 +24,14 @@ export default class Consent extends React.Component {
 
           <p>
           The game is over-subscribed to shorten waiting times.
-         </p>
+          </p>
 
-         <p>
+          <p>
           You will be paid for training, even if you don't get to play.
-        </p>
+          </p>
 
 
-          <h2> What you need to do </h2>
+          <h2> What you need to do:</h2>
           <p>
           1. Please use a computer, not a mobile device.
           </p>
@@ -56,8 +56,10 @@ export default class Consent extends React.Component {
           of this page indicates that you are at least 18 years of age and
           agree to complete this HIT voluntarily.
           </i></p>
+          <p>Problems? Email <a href="mailto:detective@mit.edu">detective@mit.edu</a>.</p>
           <br />
           <ConsentButton text="I AGREE" />
+
         </div>
       </Description>
     );
