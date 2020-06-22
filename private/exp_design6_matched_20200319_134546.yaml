@@ -1,0 +1,856 @@
+factorTypes:
+- _id: WBeNxtkhGrGi6SN6q
+  description: The number of players in a given game.
+  min: 1
+  name: playerCount
+  required: 'true'
+  type: Integer
+- _id: JYxCNYHp3thDNh4zo
+  description: The length of the game in minutes.
+  min: 0
+  name: duration
+  required: 'true'
+  type: Integer
+- _id: H9iXaGWmXgv2vHws7
+  description: Which game setup to use for the game.
+  name: gameSetupId
+  required: 'false'
+  type: String
+- _id: KbvKp6Xq2jzS39T6N
+  description: which json file to load the experiment data from
+  name: experimentDataFile
+  required: 'false'
+  type: String
+factors:
+- _id: PG5sj63GhPzNeHjyd
+  factorTypeId: WBeNxtkhGrGi6SN6q
+  name: TestPlayers
+  value: 4
+- _id: aLFHxYtKBtQjY5c4G
+  factorTypeId: JYxCNYHp3thDNh4zo
+  name: playOneMin
+  value: 1
+- _id: Zm3BoyhMGJ8oPeF8s
+  factorTypeId: JYxCNYHp3thDNh4zo
+  name: play8Min
+  value: 8
+- _id: uHNfyCiN7Z9mPZ4n6
+  factorTypeId: WBeNxtkhGrGi6SN6q
+  name: run_20_playerrun_20_player
+  value: 40
+- _id: cMxSogQuFGnYAQYZn
+  factorTypeId: KbvKp6Xq2jzS39T6N
+  name: exp_design6_matched_20200319_134546
+  value: exp_design6_matched_20200319_134546.json
+- _id: F86kgyuRp5mCbMHpg
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_0_matched_pair_exp_design6_matched_20200319_134546
+  value: panel_0_matched_pair_exp_design6_matched_20200319_134546
+- _id: wyqKCR8o8EYYFuqca
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_0_matched_pair_caveman_exp_design6_matched_20200319_134546
+  value: panel_0_matched_pair_caveman_exp_design6_matched_20200319_134546
+- _id: M3DLtFWDZhwAwnSfR
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_1_matched_pair_exp_design6_matched_20200319_134546
+  value: panel_1_matched_pair_exp_design6_matched_20200319_134546
+- _id: t5cDP7zZ7Hg8nTWss
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_1_matched_pair_caveman_exp_design6_matched_20200319_134546
+  value: panel_1_matched_pair_caveman_exp_design6_matched_20200319_134546
+- _id: JpPNmDuSeqgK2ueQ4
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_2_matched_pair_exp_design6_matched_20200319_134546
+  value: panel_2_matched_pair_exp_design6_matched_20200319_134546
+- _id: zAyWk3Y4CMYN5zc9m
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_2_matched_pair_caveman_exp_design6_matched_20200319_134546
+  value: panel_2_matched_pair_caveman_exp_design6_matched_20200319_134546
+- _id: Bho24Lf3eDEPJgXCL
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_3_matched_pair_exp_design6_matched_20200319_134546
+  value: panel_3_matched_pair_exp_design6_matched_20200319_134546
+- _id: yCngPTXvscmsLq2gL
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_3_matched_pair_caveman_exp_design6_matched_20200319_134546
+  value: panel_3_matched_pair_caveman_exp_design6_matched_20200319_134546
+- _id: dWpT8mewL98XEptZm
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_4_matched_pair_exp_design6_matched_20200319_134546
+  value: panel_4_matched_pair_exp_design6_matched_20200319_134546
+- _id: iqPxAnxyBJzAt8JZC
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_4_matched_pair_caveman_exp_design6_matched_20200319_134546
+  value: panel_4_matched_pair_caveman_exp_design6_matched_20200319_134546
+- _id: btLADHZEy2vmq48JK
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_5_matched_pair_exp_design6_matched_20200319_134546
+  value: panel_5_matched_pair_exp_design6_matched_20200319_134546
+- _id: YFRGEDX8QSxeDPshR
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_5_matched_pair_caveman_exp_design6_matched_20200319_134546
+  value: panel_5_matched_pair_caveman_exp_design6_matched_20200319_134546
+- _id: Sahz9q7zTYryYxLr9
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_6_matched_pair_exp_design6_matched_20200319_134546
+  value: panel_6_matched_pair_exp_design6_matched_20200319_134546
+- _id: vdfidjDQPpqqtYhLx
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_6_matched_pair_caveman_exp_design6_matched_20200319_134546
+  value: panel_6_matched_pair_caveman_exp_design6_matched_20200319_134546
+- _id: pChNyNWiW4gPnnNMh
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_7_matched_pair_exp_design6_matched_20200319_134546
+  value: panel_7_matched_pair_exp_design6_matched_20200319_134546
+- _id: Y5X9B5Xfm3LLYK37p
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_7_matched_pair_caveman_exp_design6_matched_20200319_134546
+  value: panel_7_matched_pair_caveman_exp_design6_matched_20200319_134546
+- _id: o2AD7QZyKbWJcgCEQ
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_8_matched_pair_exp_design6_matched_20200319_134546
+  value: panel_8_matched_pair_exp_design6_matched_20200319_134546
+- _id: eFGudEdhqT5JxbDCw
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_8_matched_pair_caveman_exp_design6_matched_20200319_134546
+  value: panel_8_matched_pair_caveman_exp_design6_matched_20200319_134546
+- _id: 8GfagSnYxWTqSb4iv
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_9_matched_pair_exp_design6_matched_20200319_134546
+  value: panel_9_matched_pair_exp_design6_matched_20200319_134546
+- _id: a8nJuguZnpZABaEz6
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_9_matched_pair_caveman_exp_design6_matched_20200319_134546
+  value: panel_9_matched_pair_caveman_exp_design6_matched_20200319_134546
+- _id: 8qzafMiiAtA4ATykW
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_10_matched_pair_exp_design6_matched_20200319_134546
+  value: panel_10_matched_pair_exp_design6_matched_20200319_134546
+- _id: ibArgxQhkWBYnCufv
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_10_matched_pair_caveman_exp_design6_matched_20200319_134546
+  value: panel_10_matched_pair_caveman_exp_design6_matched_20200319_134546
+- _id: xhXpvAsWvceCbrqFT
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_11_matched_pair_exp_design6_matched_20200319_134546
+  value: panel_11_matched_pair_exp_design6_matched_20200319_134546
+- _id: hBMzHeLBNEMN2oFuM
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_11_matched_pair_caveman_exp_design6_matched_20200319_134546
+  value: panel_11_matched_pair_caveman_exp_design6_matched_20200319_134546
+- _id: KmEBrsJRAeJHQciei
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_12_matched_pair_exp_design6_matched_20200319_134546
+  value: panel_12_matched_pair_exp_design6_matched_20200319_134546
+- _id: huYtLco4BkaGSNiKH
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_12_matched_pair_caveman_exp_design6_matched_20200319_134546
+  value: panel_12_matched_pair_caveman_exp_design6_matched_20200319_134546
+- _id: jboPBj473na3ndWdQ
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_13_matched_pair_exp_design6_matched_20200319_134546
+  value: panel_13_matched_pair_exp_design6_matched_20200319_134546
+- _id: 6z9HH27k7gmgHfkvi
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_13_matched_pair_caveman_exp_design6_matched_20200319_134546
+  value: panel_13_matched_pair_caveman_exp_design6_matched_20200319_134546
+- _id: NP2GhPXhfkQrvEkTP
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_14_matched_pair_exp_design6_matched_20200319_134546
+  value: panel_14_matched_pair_exp_design6_matched_20200319_134546
+- _id: ch8jhMMHEgymphsbW
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_14_matched_pair_caveman_exp_design6_matched_20200319_134546
+  value: panel_14_matched_pair_caveman_exp_design6_matched_20200319_134546
+- _id: 8pR55xBmC6Xs5yKr6
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_15_matched_pair_exp_design6_matched_20200319_134546
+  value: panel_15_matched_pair_exp_design6_matched_20200319_134546
+- _id: Zz4bshdMAZBvfqg7u
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_15_matched_pair_caveman_exp_design6_matched_20200319_134546
+  value: panel_15_matched_pair_caveman_exp_design6_matched_20200319_134546
+- _id: WFyEatASZDLcTQLj6
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_16_matched_pair_exp_design6_matched_20200319_134546
+  value: panel_16_matched_pair_exp_design6_matched_20200319_134546
+- _id: 4uAwE4LqAi5HN6ESH
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_16_matched_pair_caveman_exp_design6_matched_20200319_134546
+  value: panel_16_matched_pair_caveman_exp_design6_matched_20200319_134546
+- _id: xBQKJiiebqWSQhPiC
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_17_matched_pair_exp_design6_matched_20200319_134546
+  value: panel_17_matched_pair_exp_design6_matched_20200319_134546
+- _id: YezGiECsTq3sCCXjT
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_17_matched_pair_caveman_exp_design6_matched_20200319_134546
+  value: panel_17_matched_pair_caveman_exp_design6_matched_20200319_134546
+- _id: 6AFqdvkcKe2wTuk8T
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_18_matched_pair_exp_design6_matched_20200319_134546
+  value: panel_18_matched_pair_exp_design6_matched_20200319_134546
+- _id: 8f2ejB9wZmCAgGGGZ
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_18_matched_pair_caveman_exp_design6_matched_20200319_134546
+  value: panel_18_matched_pair_caveman_exp_design6_matched_20200319_134546
+- _id: ztwRa8ikDejutZAda
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_19_matched_pair_exp_design6_matched_20200319_134546
+  value: panel_19_matched_pair_exp_design6_matched_20200319_134546
+- _id: pa2uAmrpmBiaZhnKE
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_19_matched_pair_caveman_exp_design6_matched_20200319_134546
+  value: panel_19_matched_pair_caveman_exp_design6_matched_20200319_134546
+- _id: gYBDXAHqKkoDvftn6
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_20_matched_pair_exp_design6_matched_20200319_134546
+  value: panel_20_matched_pair_exp_design6_matched_20200319_134546
+- _id: 99acdY4WPxWpkd2zN
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_20_matched_pair_caveman_exp_design6_matched_20200319_134546
+  value: panel_20_matched_pair_caveman_exp_design6_matched_20200319_134546
+- _id: NC92jfprEdrjBQD5F
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_21_matched_pair_exp_design6_matched_20200319_134546
+  value: panel_21_matched_pair_exp_design6_matched_20200319_134546
+- _id: 2t3J35bn49xWK2e3S
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_21_matched_pair_caveman_exp_design6_matched_20200319_134546
+  value: panel_21_matched_pair_caveman_exp_design6_matched_20200319_134546
+- _id: e98Zkxa9QiFQ7FgQC
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_22_matched_pair_exp_design6_matched_20200319_134546
+  value: panel_22_matched_pair_exp_design6_matched_20200319_134546
+- _id: Pn8uB6Qn57Mu3Bq2w
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_22_matched_pair_caveman_exp_design6_matched_20200319_134546
+  value: panel_22_matched_pair_caveman_exp_design6_matched_20200319_134546
+- _id: KsRhQDsLX2sfC3Et9
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_23_matched_pair_exp_design6_matched_20200319_134546
+  value: panel_23_matched_pair_exp_design6_matched_20200319_134546
+- _id: hpKK7FNXK3i87aJo9
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_23_matched_pair_caveman_exp_design6_matched_20200319_134546
+  value: panel_23_matched_pair_caveman_exp_design6_matched_20200319_134546
+- _id: ePLdGX6znoQpqsPni
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_24_matched_pair_exp_design6_matched_20200319_134546
+  value: panel_24_matched_pair_exp_design6_matched_20200319_134546
+- _id: GBF6Fs5NfmtWE8Muu
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_24_matched_pair_caveman_exp_design6_matched_20200319_134546
+  value: panel_24_matched_pair_caveman_exp_design6_matched_20200319_134546
+- _id: gBmxtBEpSaCqwoX8i
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_25_matched_pair_exp_design6_matched_20200319_134546
+  value: panel_25_matched_pair_exp_design6_matched_20200319_134546
+- _id: sDT2WkDNwx5oTjJje
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_25_matched_pair_caveman_exp_design6_matched_20200319_134546
+  value: panel_25_matched_pair_caveman_exp_design6_matched_20200319_134546
+- _id: XEM5PfunYtzxazYD3
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_26_matched_pair_exp_design6_matched_20200319_134546
+  value: panel_26_matched_pair_exp_design6_matched_20200319_134546
+- _id: JnBnG7CHfmiJZqCMk
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_26_matched_pair_caveman_exp_design6_matched_20200319_134546
+  value: panel_26_matched_pair_caveman_exp_design6_matched_20200319_134546
+- _id: KChx9jdcdxRcK7Ex8
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_27_matched_pair_exp_design6_matched_20200319_134546
+  value: panel_27_matched_pair_exp_design6_matched_20200319_134546
+- _id: sCTyKaieGks96yET3
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_27_matched_pair_caveman_exp_design6_matched_20200319_134546
+  value: panel_27_matched_pair_caveman_exp_design6_matched_20200319_134546
+- _id: zPzFSPavohsWyPEc5
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_28_matched_pair_exp_design6_matched_20200319_134546
+  value: panel_28_matched_pair_exp_design6_matched_20200319_134546
+- _id: 2RmtByquZHqZuk4bE
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_28_matched_pair_caveman_exp_design6_matched_20200319_134546
+  value: panel_28_matched_pair_caveman_exp_design6_matched_20200319_134546
+- _id: nN3pDP4y8A55GkdoZ
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_29_matched_pair_exp_design6_matched_20200319_134546
+  value: panel_29_matched_pair_exp_design6_matched_20200319_134546
+- _id: Ta9fpN4ctxfy2mCHf
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_29_matched_pair_caveman_exp_design6_matched_20200319_134546
+  value: panel_29_matched_pair_caveman_exp_design6_matched_20200319_134546
+- _id: ZQDtTXyrkhvixWE2j
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_30_matched_pair_exp_design6_matched_20200319_134546
+  value: panel_30_matched_pair_exp_design6_matched_20200319_134546
+- _id: 3QSGHqcrChyYPBGs5
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_30_matched_pair_caveman_exp_design6_matched_20200319_134546
+  value: panel_30_matched_pair_caveman_exp_design6_matched_20200319_134546
+- _id: tBjpsdwWadBg2rnrx
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_31_matched_pair_exp_design6_matched_20200319_134546
+  value: panel_31_matched_pair_exp_design6_matched_20200319_134546
+- _id: NSyAyk6DigzcTgnLg
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_31_matched_pair_caveman_exp_design6_matched_20200319_134546
+  value: panel_31_matched_pair_caveman_exp_design6_matched_20200319_134546
+- _id: MWmPDhDChz9ShPyLw
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_32_matched_pair_exp_design6_matched_20200319_134546
+  value: panel_32_matched_pair_exp_design6_matched_20200319_134546
+- _id: 7h7YA9XQhTwhwtxZ8
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_32_matched_pair_caveman_exp_design6_matched_20200319_134546
+  value: panel_32_matched_pair_caveman_exp_design6_matched_20200319_134546
+- _id: mCa6xAPRLe9mnPhfv
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_33_matched_pair_exp_design6_matched_20200319_134546
+  value: panel_33_matched_pair_exp_design6_matched_20200319_134546
+- _id: 9sy932TDK2pvKZxFx
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_33_matched_pair_caveman_exp_design6_matched_20200319_134546
+  value: panel_33_matched_pair_caveman_exp_design6_matched_20200319_134546
+- _id: Wd7SLuLQduvT4xNnw
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_34_matched_pair_exp_design6_matched_20200319_134546
+  value: panel_34_matched_pair_exp_design6_matched_20200319_134546
+- _id: HR449cYnuFdxBLx2D
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_34_matched_pair_caveman_exp_design6_matched_20200319_134546
+  value: panel_34_matched_pair_caveman_exp_design6_matched_20200319_134546
+- _id: 5uydmRx5dYHiH92qN
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_35_matched_pair_exp_design6_matched_20200319_134546
+  value: panel_35_matched_pair_exp_design6_matched_20200319_134546
+- _id: ypvFSWcyK5MJBm3Ef
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_35_matched_pair_caveman_exp_design6_matched_20200319_134546
+  value: panel_35_matched_pair_caveman_exp_design6_matched_20200319_134546
+- _id: GFG6jtAtb3XmdNY4o
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_36_matched_pair_exp_design6_matched_20200319_134546
+  value: panel_36_matched_pair_exp_design6_matched_20200319_134546
+- _id: upEGfgKa7Xf5xbeyJ
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_36_matched_pair_caveman_exp_design6_matched_20200319_134546
+  value: panel_36_matched_pair_caveman_exp_design6_matched_20200319_134546
+- _id: wH8nTLHwAS263RKfG
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_37_matched_pair_exp_design6_matched_20200319_134546
+  value: panel_37_matched_pair_exp_design6_matched_20200319_134546
+- _id: Tf96fwF9gLopaGjDc
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_37_matched_pair_caveman_exp_design6_matched_20200319_134546
+  value: panel_37_matched_pair_caveman_exp_design6_matched_20200319_134546
+- _id: xE7SMQrwMh8JMJJ6y
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_38_matched_pair_exp_design6_matched_20200319_134546
+  value: panel_38_matched_pair_exp_design6_matched_20200319_134546
+- _id: tjJevRS4pN2ojRcuP
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_38_matched_pair_caveman_exp_design6_matched_20200319_134546
+  value: panel_38_matched_pair_caveman_exp_design6_matched_20200319_134546
+- _id: GenskiXnHmzctmegx
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_39_matched_pair_exp_design6_matched_20200319_134546
+  value: panel_39_matched_pair_exp_design6_matched_20200319_134546
+- _id: h42EXBekdckCwAqRe
+  factorTypeId: H9iXaGWmXgv2vHws7
+  name: panel_39_matched_pair_caveman_exp_design6_matched_20200319_134546
+  value: panel_39_matched_pair_caveman_exp_design6_matched_20200319_134546
+lobbyConfigs:
+- gameLobbyIds: []
+  timeoutInSeconds: 1500000
+  timeoutStrategy: fail
+  timeoutType: lobby
+treatments:
+- factorIds:
+  - F86kgyuRp5mCbMHpg
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_0_matched_pair_exp_design6_matched_20200319_134546
+- factorIds:
+  - wyqKCR8o8EYYFuqca
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_0_matched_pair_caveman_exp_design6_matched_20200319_134546
+- factorIds:
+  - M3DLtFWDZhwAwnSfR
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_1_matched_pair_exp_design6_matched_20200319_134546
+- factorIds:
+  - t5cDP7zZ7Hg8nTWss
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_1_matched_pair_caveman_exp_design6_matched_20200319_134546
+- factorIds:
+  - JpPNmDuSeqgK2ueQ4
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_2_matched_pair_exp_design6_matched_20200319_134546
+- factorIds:
+  - zAyWk3Y4CMYN5zc9m
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_2_matched_pair_caveman_exp_design6_matched_20200319_134546
+- factorIds:
+  - Bho24Lf3eDEPJgXCL
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_3_matched_pair_exp_design6_matched_20200319_134546
+- factorIds:
+  - yCngPTXvscmsLq2gL
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_3_matched_pair_caveman_exp_design6_matched_20200319_134546
+- factorIds:
+  - dWpT8mewL98XEptZm
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_4_matched_pair_exp_design6_matched_20200319_134546
+- factorIds:
+  - iqPxAnxyBJzAt8JZC
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_4_matched_pair_caveman_exp_design6_matched_20200319_134546
+- factorIds:
+  - btLADHZEy2vmq48JK
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_5_matched_pair_exp_design6_matched_20200319_134546
+- factorIds:
+  - YFRGEDX8QSxeDPshR
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_5_matched_pair_caveman_exp_design6_matched_20200319_134546
+- factorIds:
+  - Sahz9q7zTYryYxLr9
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_6_matched_pair_exp_design6_matched_20200319_134546
+- factorIds:
+  - vdfidjDQPpqqtYhLx
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_6_matched_pair_caveman_exp_design6_matched_20200319_134546
+- factorIds:
+  - pChNyNWiW4gPnnNMh
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_7_matched_pair_exp_design6_matched_20200319_134546
+- factorIds:
+  - Y5X9B5Xfm3LLYK37p
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_7_matched_pair_caveman_exp_design6_matched_20200319_134546
+- factorIds:
+  - o2AD7QZyKbWJcgCEQ
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_8_matched_pair_exp_design6_matched_20200319_134546
+- factorIds:
+  - eFGudEdhqT5JxbDCw
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_8_matched_pair_caveman_exp_design6_matched_20200319_134546
+- factorIds:
+  - 8GfagSnYxWTqSb4iv
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_9_matched_pair_exp_design6_matched_20200319_134546
+- factorIds:
+  - a8nJuguZnpZABaEz6
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_9_matched_pair_caveman_exp_design6_matched_20200319_134546
+- factorIds:
+  - 8qzafMiiAtA4ATykW
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_10_matched_pair_exp_design6_matched_20200319_134546
+- factorIds:
+  - ibArgxQhkWBYnCufv
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_10_matched_pair_caveman_exp_design6_matched_20200319_134546
+- factorIds:
+  - xhXpvAsWvceCbrqFT
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_11_matched_pair_exp_design6_matched_20200319_134546
+- factorIds:
+  - hBMzHeLBNEMN2oFuM
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_11_matched_pair_caveman_exp_design6_matched_20200319_134546
+- factorIds:
+  - KmEBrsJRAeJHQciei
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_12_matched_pair_exp_design6_matched_20200319_134546
+- factorIds:
+  - huYtLco4BkaGSNiKH
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_12_matched_pair_caveman_exp_design6_matched_20200319_134546
+- factorIds:
+  - jboPBj473na3ndWdQ
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_13_matched_pair_exp_design6_matched_20200319_134546
+- factorIds:
+  - 6z9HH27k7gmgHfkvi
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_13_matched_pair_caveman_exp_design6_matched_20200319_134546
+- factorIds:
+  - NP2GhPXhfkQrvEkTP
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_14_matched_pair_exp_design6_matched_20200319_134546
+- factorIds:
+  - ch8jhMMHEgymphsbW
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_14_matched_pair_caveman_exp_design6_matched_20200319_134546
+- factorIds:
+  - 8pR55xBmC6Xs5yKr6
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_15_matched_pair_exp_design6_matched_20200319_134546
+- factorIds:
+  - Zz4bshdMAZBvfqg7u
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_15_matched_pair_caveman_exp_design6_matched_20200319_134546
+- factorIds:
+  - WFyEatASZDLcTQLj6
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_16_matched_pair_exp_design6_matched_20200319_134546
+- factorIds:
+  - 4uAwE4LqAi5HN6ESH
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_16_matched_pair_caveman_exp_design6_matched_20200319_134546
+- factorIds:
+  - xBQKJiiebqWSQhPiC
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_17_matched_pair_exp_design6_matched_20200319_134546
+- factorIds:
+  - YezGiECsTq3sCCXjT
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_17_matched_pair_caveman_exp_design6_matched_20200319_134546
+- factorIds:
+  - 6AFqdvkcKe2wTuk8T
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_18_matched_pair_exp_design6_matched_20200319_134546
+- factorIds:
+  - 8f2ejB9wZmCAgGGGZ
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_18_matched_pair_caveman_exp_design6_matched_20200319_134546
+- factorIds:
+  - ztwRa8ikDejutZAda
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_19_matched_pair_exp_design6_matched_20200319_134546
+- factorIds:
+  - pa2uAmrpmBiaZhnKE
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_19_matched_pair_caveman_exp_design6_matched_20200319_134546
+- factorIds:
+  - gYBDXAHqKkoDvftn6
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_20_matched_pair_exp_design6_matched_20200319_134546
+- factorIds:
+  - 99acdY4WPxWpkd2zN
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_20_matched_pair_caveman_exp_design6_matched_20200319_134546
+- factorIds:
+  - NC92jfprEdrjBQD5F
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_21_matched_pair_exp_design6_matched_20200319_134546
+- factorIds:
+  - 2t3J35bn49xWK2e3S
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_21_matched_pair_caveman_exp_design6_matched_20200319_134546
+- factorIds:
+  - e98Zkxa9QiFQ7FgQC
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_22_matched_pair_exp_design6_matched_20200319_134546
+- factorIds:
+  - Pn8uB6Qn57Mu3Bq2w
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_22_matched_pair_caveman_exp_design6_matched_20200319_134546
+- factorIds:
+  - KsRhQDsLX2sfC3Et9
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_23_matched_pair_exp_design6_matched_20200319_134546
+- factorIds:
+  - hpKK7FNXK3i87aJo9
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_23_matched_pair_caveman_exp_design6_matched_20200319_134546
+- factorIds:
+  - ePLdGX6znoQpqsPni
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_24_matched_pair_exp_design6_matched_20200319_134546
+- factorIds:
+  - GBF6Fs5NfmtWE8Muu
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_24_matched_pair_caveman_exp_design6_matched_20200319_134546
+- factorIds:
+  - gBmxtBEpSaCqwoX8i
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_25_matched_pair_exp_design6_matched_20200319_134546
+- factorIds:
+  - sDT2WkDNwx5oTjJje
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_25_matched_pair_caveman_exp_design6_matched_20200319_134546
+- factorIds:
+  - XEM5PfunYtzxazYD3
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_26_matched_pair_exp_design6_matched_20200319_134546
+- factorIds:
+  - JnBnG7CHfmiJZqCMk
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_26_matched_pair_caveman_exp_design6_matched_20200319_134546
+- factorIds:
+  - KChx9jdcdxRcK7Ex8
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_27_matched_pair_exp_design6_matched_20200319_134546
+- factorIds:
+  - sCTyKaieGks96yET3
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_27_matched_pair_caveman_exp_design6_matched_20200319_134546
+- factorIds:
+  - zPzFSPavohsWyPEc5
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_28_matched_pair_exp_design6_matched_20200319_134546
+- factorIds:
+  - 2RmtByquZHqZuk4bE
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_28_matched_pair_caveman_exp_design6_matched_20200319_134546
+- factorIds:
+  - nN3pDP4y8A55GkdoZ
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_29_matched_pair_exp_design6_matched_20200319_134546
+- factorIds:
+  - Ta9fpN4ctxfy2mCHf
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_29_matched_pair_caveman_exp_design6_matched_20200319_134546
+- factorIds:
+  - ZQDtTXyrkhvixWE2j
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_30_matched_pair_exp_design6_matched_20200319_134546
+- factorIds:
+  - 3QSGHqcrChyYPBGs5
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_30_matched_pair_caveman_exp_design6_matched_20200319_134546
+- factorIds:
+  - tBjpsdwWadBg2rnrx
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_31_matched_pair_exp_design6_matched_20200319_134546
+- factorIds:
+  - NSyAyk6DigzcTgnLg
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_31_matched_pair_caveman_exp_design6_matched_20200319_134546
+- factorIds:
+  - MWmPDhDChz9ShPyLw
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_32_matched_pair_exp_design6_matched_20200319_134546
+- factorIds:
+  - 7h7YA9XQhTwhwtxZ8
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_32_matched_pair_caveman_exp_design6_matched_20200319_134546
+- factorIds:
+  - mCa6xAPRLe9mnPhfv
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_33_matched_pair_exp_design6_matched_20200319_134546
+- factorIds:
+  - 9sy932TDK2pvKZxFx
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_33_matched_pair_caveman_exp_design6_matched_20200319_134546
+- factorIds:
+  - Wd7SLuLQduvT4xNnw
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_34_matched_pair_exp_design6_matched_20200319_134546
+- factorIds:
+  - HR449cYnuFdxBLx2D
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_34_matched_pair_caveman_exp_design6_matched_20200319_134546
+- factorIds:
+  - 5uydmRx5dYHiH92qN
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_35_matched_pair_exp_design6_matched_20200319_134546
+- factorIds:
+  - ypvFSWcyK5MJBm3Ef
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_35_matched_pair_caveman_exp_design6_matched_20200319_134546
+- factorIds:
+  - GFG6jtAtb3XmdNY4o
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_36_matched_pair_exp_design6_matched_20200319_134546
+- factorIds:
+  - upEGfgKa7Xf5xbeyJ
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_36_matched_pair_caveman_exp_design6_matched_20200319_134546
+- factorIds:
+  - wH8nTLHwAS263RKfG
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_37_matched_pair_exp_design6_matched_20200319_134546
+- factorIds:
+  - Tf96fwF9gLopaGjDc
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_37_matched_pair_caveman_exp_design6_matched_20200319_134546
+- factorIds:
+  - xE7SMQrwMh8JMJJ6y
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_38_matched_pair_exp_design6_matched_20200319_134546
+- factorIds:
+  - tjJevRS4pN2ojRcuP
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_38_matched_pair_caveman_exp_design6_matched_20200319_134546
+- factorIds:
+  - GenskiXnHmzctmegx
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_39_matched_pair_exp_design6_matched_20200319_134546
+- factorIds:
+  - h42EXBekdckCwAqRe
+  - Zm3BoyhMGJ8oPeF8s
+  - uHNfyCiN7Z9mPZ4n6
+  - cMxSogQuFGnYAQYZn
+  name: panel_39_matched_pair_caveman_exp_design6_matched_20200319_134546
+- factorIds:
+  - h42EXBekdckCwAqRe
+  - aLFHxYtKBtQjY5c4G
+  - PG5sj63GhPzNeHjyd
+  - cMxSogQuFGnYAQYZn
+  name: testGame

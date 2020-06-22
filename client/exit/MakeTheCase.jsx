@@ -5,6 +5,7 @@ import styled from 'styled-components';
 import Workspace from "../game/Workspace";
 import { DragDropContext } from 'react-beautiful-dnd';
 import { HTMLSelect } from "@blueprintjs/core";
+import { Button } from "@blueprintjs/core";
 
 const Container = styled.div`
   margin: 4px;
@@ -120,7 +121,7 @@ export default class MakeTheCase extends React.Component {
   renderSliderLabels(){
     return (
       <SliderLabel>
-      <table cellpadding="0" cellspacing="0px" width="100%" border="0">
+      <table cellPadding="0" cellSpacing="0px" width="100%" border="0">
          <tr>
             <td width="12.5%" align="left">Extremely unlikely</td>
             <td width="25%" align="center">Somewhat unlikely</td>
@@ -240,11 +241,14 @@ export default class MakeTheCase extends React.Component {
                   />
                 </SliderBox>
 
-              <button
+              <Button
                 type="submit"
-                disabled={!submit_enabled}>
-              Submit
-              </button>
+                disabled={!submit_enabled}
+                intent={"primary"}
+                rightIcon={"arrow-right"}
+                >
+                Submit
+              </Button>
             </form>
 
           </Container>

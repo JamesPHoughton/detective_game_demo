@@ -1,5 +1,5 @@
 accounts-base@1.6.0
-accounts-password@1.6.0
+accounts-password@1.6.1
 aldeed:collection2@3.0.6
 aldeed:schema-deny@3.0.0
 aldeed:schema-index@3.0.0
@@ -31,7 +31,7 @@ ecmascript-runtime-client@0.10.0
 ecmascript-runtime-server@0.9.0
 ejson@1.1.1
 email@1.2.3
-empirica:core@1.5.0
+empirica:core@1.5.1
 empirica:slider@0.0.2
 es5-shim@4.8.0
 fetch@0.1.1
@@ -55,7 +55,7 @@ meteor@1.9.3
 meteor-base@1.4.0
 meteorhacks:inject-initial@1.0.4
 meteorhacks:zones@1.6.0
-minifier-css@1.5.0
+minifier-css@1.5.1
 minifier-js@2.6.0
 minimongo@1.6.0
 mizzao:timesync@0.5.1
@@ -70,7 +70,7 @@ mongo-dev-server@1.1.0
 mongo-id@1.0.7
 mongo-livedata@1.0.12
 npm-bcrypt@0.9.3
-npm-mongo@3.7.0
+npm-mongo@3.7.1
 observe-sequence@1.0.16
 ordered-dict@1.1.0
 promise@0.11.2
