@@ -11,11 +11,12 @@ import MakeTheCase from "./exit/MakeTheCase";
 import ExitSurvey from "./exit/ExitSurvey";
 import Thanks from "./exit/Thanks";
 import Sorry from "./exit/Sorry";
-
+import NoBatch from "./NoBatch.jsx"
 import { LobbyChat } from "@empirica/chat";
 
 
 Empirica.lobby(LobbyChat);
+Empirica.noBatch(NoBatch);
 
 
 // Set the Consent Component you want to present players (optional).
