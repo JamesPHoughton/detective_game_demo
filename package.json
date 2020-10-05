@@ -11,7 +11,7 @@
     "bcrypt": "^3.0.8",
     "fibers": "^5.0.0",
     "grpc": "^1.24.2",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "less-loader": "^6.1.2",
     "meteor-node-stubs": "0.4.1",
     "react": "16.5.2",
