@@ -7,17 +7,30 @@ on polarization, but can be adapted with both informational and display manipula
 
 This implementation includes training screens, an "exposition" to the case, the game itself, a post-game "make the case" survey, and follow-up questionaire, shown in the images below.
 
-![Gameplay Training](/docs/training1.png)
-![Incentives](/docs/training2.png)
-![Game Exposition](/docs/exposition.png)
-![Game Play](/docs/game.png)
-![Make-the-case](/docs/make_the_case.png)
-![Confidence](/docs/confidence.png)
+### Introduction to gameplay:
+> ![Gameplay Training](/docs/training1.png)
 
+### Explanation of Incentives:
+> ![Incentives](/docs/training2.png)
+
+### Exposition to the case:
+> ![Game Exposition](/docs/exposition.png)
+
+### The game screen:
+> ![Game Play](/docs/game.png)
+
+### Make the case:
+> ![Make-the-case](/docs/make_the_case.png)
+> ![Confidence](/docs/confidence.png)
+
+
+## Deploying the game
 The game makes use of the [Empirica](https://empirica.ly/) and the Meteor framework. Many first-class resources exist to help beginners [deploy Meteor apps](https://galaxy-guide.meteor.com/deploy-guide.html) on cloud servers.
 
 **To test locally, type `meteor` in this project's home directory.**
 
+
+## Modifying the game
 To modify the information environment and clue structure, edit one of the example configuration files found in `/private/`,
 or use `design_demo_game.py` to programmatically generate a clue set with your desired properties.
 
