@@ -15,7 +15,7 @@ import NoBatch from "./NoBatch.jsx"
 import { LobbyChat } from "@empirica/chat";
 
 
-Empirica.lobby(LobbyChat);
+//Empirica.lobby(LobbyChat);
 Empirica.noBatch(NoBatch);
 
 
