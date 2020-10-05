@@ -1,48 +1,17 @@
 # Detective Game
 
-## Running the game server
+This repository contains code for running the Detective Game, an experiment design that allows researchers to study
+the simultaneous social contagion of multiple beliefs in a controlled setting. 
+The game was originally developed to explore the effect of interdependence between beliefs
+on polarization, but can be adapted with both informational and display manipulations.
 
-To run this project locally, run the local server:
+The game makes use of the [Empirica](https://empirica.ly/) and the Meteor framework. Many first-class resources exist to help beginners [deploy Meteor apps](https://galaxy-guide.meteor.com/deploy-guide.html) on cloud servers. 
 
-```sh
-meteor
-```
+**To test locally, type `meteor` in this project's home directory.**
 
-To run with a local version of the empirica core:
-```sh
-METEOR_PACKAGE_DIRS=/Library/MeteorPackages/ meteor
-```
+To modify the information environment and clue structure, edit one of the example configuration files found in `/private/`, 
+or use `design_demo_game.py` to programmatically generate a clue set with your desired properties.
 
-To inspect the server side code, add `meteor --inspect flag`
+To modify the display, modify any of the react components found in `/client/game/`.
 
-
-To deploy to galaxy:
-1. uncomment lines in the `client: main.js` to make sure that they see the
-production version
-2. start the mongodb database
-
-3. deploy
-```sh
-
-DEPLOY_HOSTNAME=us-east-1.galaxy-deploy.meteor.com meteor deploy detective.meteorapp.com --settings settings.json
-```
-4. run games
-5. download data
-6. shut down galaxy server
-7. shut down mongodb database
-
-
-Set up mongodb atlas with galaxy: https://www.okgrow.com/posts/mongodb-atlas-setup
-troubleshooting `authentication fail` involved creating a new user with a simple password and trying again...
-
-
-
-### Settings
-
-We generated a basic settings file (`/local.json`), which should originally only contain configuration for admin login. More documentation for settings is coming soon.
-
-You can run the app with the settings like this:
-
-```sh
-meteor --settings local.json
-```
+Happy coding!
